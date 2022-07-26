@@ -24,7 +24,7 @@ public class Exercise {
 
         Map<String, Object[]> dato = new TreeMap<>();
         dato.put("1", new Object[]{"NAME", "LASTNAME", "EMAIL", "PASSWORD", "COMPANY", "ADDRESS", "CITY", "ZIP_CODE", "MOBILE_PHONE"});
-        dato.put("2", new Object[]{"John", "Adwards", "JohnA@hexaware.com", "JohnAwd&%05", "Hexaware Technologies Mx", "Av. San Angel No. 240, Valle San Agustin","Saltillo Coahuila", "25215", "844 277 2884"});
+        dato.put("2", new Object[]{"John", "Adwards", "JohnA@email.com", "JohnAwd&%05", "IT Enterprice", "Sn. Calle, S/N, Centro","Primary Town", "12345", "99 12 45 78 23"});
 
         Set<String> primaria = dato.keySet();
         int num = 0;
